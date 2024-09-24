@@ -5,8 +5,7 @@
 | [Dataset Description](#Dataset-Description)			   	|
 | [Columns Descreption](#Columns-Descreption) 		   		|
 | [EDA Questions](#eda-questions)							|
-| [Data Wrangling](#Data-Wrangling)					   		|
-| [Data Cleaning](#Data-Cleaning)						   	|
+| [Data Wrangling](#Data-Wrangling)					   		|					   	|
 | [Data Visualization](#Data-Visualization)					|
 | [Conclusion](#Conclusion)									|
 | [Built with](#Built-with)							   		|
@@ -32,19 +31,7 @@ This data set contains information about +9000 movies extracted from TMDB API.
 - Q4: Which year has the most filmmed movies?
 
 ## Data Wrangling:
-Our data can be found on `mymoviedb.csv` file provided on this repository, downloaded from [Kaggle](https://www.kaggle.com/datasets/disham993/9000-movies-dataset). 
-
-## Data Cleaning:
-### Exploration Summery
-- we have a dataframe consisting of 9827 rows and 9 columns.
-- our dataset looks a bit tidy with no NaNs nor duplicated values.
-- `Release_Date` column needs to be casted into date time and to extract only the year value.
-- `Overview`, `Original_Languege` and `Poster-Url` wouldn't be so useful during analysis, so we'll drop them.
-- there is noticable outliers in `Popularity` column
-- `Vote_Average` bettter be categorised for proper analysis.
-- `Genre` column has comma saperated values and white spaces that needs to be handled and casted into category. 
-
-We endded up with a datafram of a total of 6 columns and 25551 rows to dig into during our analysis after comleting our cleaning. 
+Our data can be found on `mymoviedb.csv` file provided on this repository, downloaded from [Kaggle](https://www.kaggle.com/datasets/disham993/9000-movies-dataset).  
 
 ## Data Visualization
 Using `Matplotlib` and `Seaborn`, we made several meaningful visuals and charts to help us gain informative insights regarding any correlation between attributes in our dataset, that'll be discussed in the next section.
