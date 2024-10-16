@@ -1,4 +1,4 @@
-# **Medical Appointment No Show Dataset Analysis**
+# **Dataset Analysis**
 
 | Contents 											 	   	|
 | -------- 											 	   	|
